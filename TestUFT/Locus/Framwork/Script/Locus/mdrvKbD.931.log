@@ -1,0 +1,35 @@
+Warning (-17893): Unknown script language	[MsgId: MWAR-17893]
+Virtual User Script started at: 7/17/2019 2:21:58 PM	[MsgId: MMSG-15967]
+Running Vuser...	[MsgId: MMSG-15964]
+Starting action Main.	[MsgId: MMSG-15919]
+Starting action TC01 [TC01].	[MsgId: MMSG-15919]
+Notify: Transaction "TC01_FXDeal_DeliveryOption_01_OpenMurexAppClient" started.	[MsgId: MMSG-16999]
+SystemUtil	[MsgId: MMSG-23001]
+Run "D:\Murex\SIT_C2\MX3.exe",1	[MsgId: MMSG-23001]
+D:\Murex\SIT_C2\MX3.exe.  Error Description: 	[MsgId: MMSG-23001]
+JavaWindow("MX.3 - MUREX_SIT_C2"). "Object does not exist"	[MsgId: MMSG-23001]
+Error:  MX.3 - MUREX_SIT_C2WebEdit not found.	[MsgId: MERR-23001]
+Notify: Transaction "TC01_FXDeal_DeliveryOption_01_OpenMurexAppClient" ended with a "Fail" status (Duration: 60.3711).	[MsgId: MMSG-16873]
+Notify: Transaction "TC01_FXDeal_DeliveryOption_01_OpenMurexAppClient" has 0 error message(s).	[MsgId: MMSG-16818]
+Notify: Transaction "TC01_FXDeal_DeliveryOption_02_SubmitLogin" started.	[MsgId: MMSG-16999]
+JavaWindow("MX.3 - MUREX_SIT_C2")	[MsgId: MMSG-23001]
+JavaWindow("MX.3 - MUREX_SIT_C2"). Cannot identify the object "MX.3 - MUREX_SIT_C2" (of class JavaWindow).
+Verify that this object's properties match an object currently displayed in your application.	[MsgId: MMSG-23001]
+JavaWindow("MX.3 - MUREX_SIT_C2"). Object's physical description:
+to_class = JavaWindow
+Title = MX.3 - MUREX_SIT_C2
+	[MsgId: MMSG-23001]
+Error:  JavaWindow("MX.3 - MUREX_SIT_C2") - Object's physical description:
+to_class = JavaWindow
+Title = MX.3 - MUREX_SIT_C2
+	[MsgId: MERR-23001]
+Error:  Line(44): JavaWindow("MX.3 - MUREX_SIT_C2") - Cannot identify the object "MX.3 - MUREX_SIT_C2" (of class JavaWindow).
+Verify that this object's properties match an object currently displayed in your application.	[MsgId: MERR-23001]
+Notify: Transaction "TC01_FXDeal_DeliveryOption_02_SubmitLogin" ended with a "Fail" status (Duration: 21.0135).	[MsgId: MMSG-16873]
+Notify: Transaction "TC01_FXDeal_DeliveryOption_02_SubmitLogin" has 0 error message(s).	[MsgId: MMSG-16818]
+Ending action TC01 [TC01].	[MsgId: MMSG-15918]
+Ending action Main.	[MsgId: MMSG-15918]
+Ending Vuser...	[MsgId: MMSG-15966]
+Vuser Terminated.	[MsgId: MMSG-15963]
+Vuser 0 (thread 1940), ended OK."	[MsgId: MMSG-10695]
+On the main thread, COM was initialized with CoUninitialize(MTA).	[MsgId: MMSG-10555]

@@ -1,0 +1,27 @@
+Warning (-17893): Unknown script language	[MsgId: MWAR-17893]
+Virtual User Script started at: 7/17/2019 1:51:42 PM	[MsgId: MMSG-15967]
+Running Vuser...	[MsgId: MMSG-15964]
+Starting iteration 1.	[MsgId: MMSG-15968]
+Starting action TC01.	[MsgId: MMSG-15919]
+SystemUtil	[MsgId: MMSG-23001]
+Run "D:\Murex\SIT_C2\MX3.exe",1	[MsgId: MMSG-23001]
+lr_think_time: 60.00 seconds.	[MsgId: MMSG-15948]
+JavaWindow("MX.3 - MUREX_SIT_C2").JavaEdit("txt_user"). "User"	[MsgId: MMSG-23001]
+JavaWindow("MX.3 - MUREX_SIT_C2").JavaEdit("txt_user"). Cannot find the "txt_user" object's parent "MX.3 - MUREX_SIT_C2" (class JavaWindow).
+Verify that parent properties match an object currently displayed in your application.	[MsgId: MMSG-23001]
+JavaWindow("MX.3 - MUREX_SIT_C2").JavaEdit("txt_user"). Object's physical description:
+to_class = JavaWindow
+Title = MX.3 - MUREX_SIT_C2
+	[MsgId: MMSG-23001]
+Error:  JavaWindow("MX.3 - MUREX_SIT_C2").JavaEdit("txt_user") - Object's physical description:
+to_class = JavaWindow
+Title = MX.3 - MUREX_SIT_C2
+	[MsgId: MERR-23001]
+Error:  Line(33): JavaWindow("MX.3 - MUREX_SIT_C2") - Cannot find the "txt_user" object's parent "MX.3 - MUREX_SIT_C2" (class JavaWindow).
+Verify that parent properties match an object currently displayed in your application.	[MsgId: MERR-23001]
+Ending action TC01.	[MsgId: MMSG-15918]
+Ending iteration 1.	[MsgId: MMSG-15965]
+Ending Vuser...	[MsgId: MMSG-15966]
+Vuser Terminated.	[MsgId: MMSG-15963]
+Vuser 0 (thread 7684), ended OK."	[MsgId: MMSG-10695]
+On the main thread, COM was initialized with CoUninitialize(MTA).	[MsgId: MMSG-10555]

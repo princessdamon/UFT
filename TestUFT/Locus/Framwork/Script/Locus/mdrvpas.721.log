@@ -1,0 +1,24 @@
+Warning (-17893): Unknown script language	[MsgId: MWAR-17893]
+Virtual User Script started at: 7/17/2019 2:19:04 PM	[MsgId: MMSG-15967]
+Running Vuser...	[MsgId: MMSG-15964]
+Starting action Main.	[MsgId: MMSG-15919]
+Starting action TC01 [TC01].	[MsgId: MMSG-15919]
+JavaWindow("MX.3 - MUREX_SIT_C2")	[MsgId: MMSG-23001]
+JavaWindow("MX.3 - MUREX_SIT_C2"). Cannot identify the object "MX.3 - MUREX_SIT_C2" (of class JavaWindow).
+Verify that this object's properties match an object currently displayed in your application.	[MsgId: MMSG-23001]
+JavaWindow("MX.3 - MUREX_SIT_C2"). Object's physical description:
+to_class = JavaWindow
+Title = MX.3 - MUREX_SIT_C2
+	[MsgId: MMSG-23001]
+Error:  JavaWindow("MX.3 - MUREX_SIT_C2") - Object's physical description:
+to_class = JavaWindow
+Title = MX.3 - MUREX_SIT_C2
+	[MsgId: MERR-23001]
+Error:  Line(36): JavaWindow("MX.3 - MUREX_SIT_C2") - Cannot identify the object "MX.3 - MUREX_SIT_C2" (of class JavaWindow).
+Verify that this object's properties match an object currently displayed in your application.	[MsgId: MERR-23001]
+Ending action TC01 [TC01].	[MsgId: MMSG-15918]
+Ending action Main.	[MsgId: MMSG-15918]
+Ending Vuser...	[MsgId: MMSG-15966]
+Vuser Terminated.	[MsgId: MMSG-15963]
+Vuser 0 (thread 7768), ended OK."	[MsgId: MMSG-10695]
+On the main thread, COM was initialized with CoUninitialize(MTA).	[MsgId: MMSG-10555]

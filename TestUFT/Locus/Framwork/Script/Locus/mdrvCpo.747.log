@@ -1,0 +1,13 @@
+Warning (-17893): Unknown script language	[MsgId: MWAR-17893]
+Virtual User Script started at: 7/17/2019 2:27:59 PM	[MsgId: MMSG-15967]
+Running Vuser...	[MsgId: MMSG-15964]
+Starting action Main.	[MsgId: MMSG-15919]
+Starting action TC01 [TC01].	[MsgId: MMSG-15919]
+Error:  Line(4): JavaWindow("MX.3 - MUREX_SIT_C2") - The "txt_user" JavaEdit object was not found in the Object Repository.
+Check the Object Repository to confirm that the object exists or to find the correct name for the object.	[MsgId: MERR-23001]
+Ending action TC01 [TC01].	[MsgId: MMSG-15918]
+Ending action Main.	[MsgId: MMSG-15918]
+Ending Vuser...	[MsgId: MMSG-15966]
+Vuser Terminated.	[MsgId: MMSG-15963]
+Vuser 0 (thread 5856), ended OK."	[MsgId: MMSG-10695]
+On the main thread, COM was initialized with CoUninitialize(MTA).	[MsgId: MMSG-10555]

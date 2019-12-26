@@ -1,0 +1,9 @@
+﻿<Properties>
+<<<<<<< HEAD
+  <WatchEntry0 value="strInValue" />
+=======
+  <WatchEntry0 value="obj_WpfWindow" />
+  <WatchEntry1 value="JmrexEdit" />
+  <WatchEntry2 value="JmrexEdit" />
+>>>>>>> c61d8a956f63531fd88f619007f2e233df77e182
+</Properties>
